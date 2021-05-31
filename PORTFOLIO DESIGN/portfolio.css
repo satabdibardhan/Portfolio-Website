@@ -1,0 +1,268 @@
+body{
+margin:1px;
+padding:1px;
+}
+header{
+background-color:black;
+clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+} 
+.menu{
+margin-left:76%;
+padding-top:-2px;
+}
+nav{
+display:flex;
+width:200px;
+}
+nav a{
+dispaly:inline-block;
+width:150px;
+font-weight:bold;
+font-size:16px;
+text-decoration:none;
+color:#ffffff;
+margin:15px;
+padding-left:15px;
+font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+.share-btn-container {
+  display: flex;
+  flex-direction: column;
+  width:20%;
+  padding-top:85px;
+margin-left:1.2%;
+ }
+#banner{
+display:flex;
+margin-top:5%;
+height:330px;
+}
+.share-btn-container a{
+font-size:23px;
+color:#ffffff;
+transition:0.5s;
+height:35px;
+padding-top:1px;
+}
+.leftside { overflow: hidden; margin-top: 1px;margin-left:1px}
+
+.leftside h2{ text-align: center;
+    color: #ffffff;
+    font-size:28px;
+    font-weight:block;
+    text-transform: uppercase;
+    line-height:70px;
+   font-family: "Trebuchet MS", Verdana, sans-serif;
+ } 
+.leftside p img{
+width:400px;
+height:auto;
+margin-left:-1%;
+}
+.leftside img{
+width:150px;
+height:auto;
+margin-left:27%;
+}
+
+.center{width:50%; overflow: hidden; margin-top: 1px;}
+.center img{
+width:350px;  
+height:auto;
+margin-left:42%;
+}
+#about{
+display:flex;
+}
+.paragraph h1{
+padding:18px;
+font-size:28px;
+padding-left:20%;
+text-transform:uppercase;
+font-weight:bold;
+font-family:"Lucida Console", Courier, monospace;
+}
+.paragraph p{
+width:500px;
+height:auto;
+margin-left:30%;
+line-height:15px;
+text-align:left;
+font-size:15px;
+font-weight:500;
+font-family:"Comic Sans MS", cursive, sans-serif;
+
+}
+.me img{
+width:188px;
+height:auto;
+margin-left:140%;
+padding-top:56%;
+}
+.written h1{
+font-size:40px;
+font-weight:bold;
+width:500px;
+height:auto;
+margin-left:50%;
+padding-top:18%;
+font-family:"Arial Black", Gadget, sans-serif;
+}
+#myskills{
+display:flex;
+}
+.skillimg{
+margin-left:8%;
+padding-top:4%;
+line-height:5px;
+}
+.skillimg p{
+font-size:12px;
+font-weight:bold;
+}
+.skillimg img{
+width:206px;
+height:auto;
+}
+#languages{
+margin-left:18%;
+padding-top:6%;
+display:flex;
+}
+.langimg img{
+width:53px;
+height:auto;
+}
+.write{
+margin-left:10%;
+padding-top:2.5%;
+}
+.write h1{
+font-size:40px;
+font-weight:bold;
+width:500px;
+height:auto;
+font-family:"Arial Black", Gadget, sans-serif;
+margin-top:2%;
+}
+#projects{
+margin-top:5.5%;
+}
+.p h1{
+padding:20px;
+font-size:28px;
+padding-left:10%;
+text-transform:uppercase;
+font-weight:bold;
+font-family:"Lucida Console", Courier, monospace;
+}
+.i{
+margin-left:18%;
+padding-top:-10px;
+}
+.i p img{
+width:150px;
+height:auto;
+margin:25px;
+border:0px solid;
+border-radius:25px 25px 25px 25px;
+}
+#contact{
+display:flex;
+padding-top:5%;
+}
+.left h1{
+font-size:30px;
+padding-left:85.5%;
+text-transform:uppercase;
+font-weight:bold;
+margin-top:80%;
+font-family:"Lucida Console", Courier, monospace;
+}
+.right{
+margin-left:35.5%;
+padding-top:1%;
+}
+.right img{
+width:250px;
+height:auto;
+}
+#abcd{
+display:flex;
+padding-top:6px;
+}
+#headache{
+margin-left:60%;
+margin-top:-1%;
+}
+.form1 label{
+font-size:18px;
+
+font-family:Arial, Helvetica, sans-serif;
+}
+.form2 label{
+font-size:18px;
+font-family:Arial, Helvetica, sans-serif;
+}
+.form3 label{
+font-size:18px;
+font-family:Arial, Helvetica, sans-serif;
+}
+.form1 input{
+border:1px solid #ccc;
+padding:10px;
+box-sizing:border-box;
+border-radius:14px 14px 14px 14px;
+margin-bottom:10%;
+}
+.form2 input{
+border:1px solid #ccc;
+padding:10px;
+box-sizing:border-box;
+border-radius:14px 14px 14px 14px;
+margin-bottom:10%;
+}
+.form3 textarea{
+border:1px solid #ccc;
+padding:10px;
+box-sizing:border-box;
+border-radius:14px 14px 14px 14px;
+}
+button{
+background:#1c00b5;
+width:100px;
+border:none;
+outline:none;
+color:#fff;
+height:35px;
+border-radius:30px;
+margin-left:92%;
+margin-top:12px;
+}
+button:hover{
+background-color: rgba(0,0,50,0.9);
+cursor: pointee;
+}
+.data{
+margin-left:16%;
+margin-top:-1%;
+}
+.data p{
+width:450px;
+padding-top:2%;
+height:auto;
+text-align:left;
+font-size:17.5px;
+font-family:"Arial Black", Gadget, sans-serif;
+}
+#footer{
+margin-left:80%;
+margin-top:5%;
+}
+#footer a{
+font-size:30px;
+color:#000000;
+transition:0.5s;
+height:35px;
+padding-left:10%;
+}
